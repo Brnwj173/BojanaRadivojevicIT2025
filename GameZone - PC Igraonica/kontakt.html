@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - GameZone PC Igraonica</title>
+    <link rel="stylesheet" href="styles/stil.css">
+    <script src="scripts/skripta.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">🎮 GameZone</div>
+            <nav>
+                <a href="index.html" class="nav-btn">Početna</a>
+                <a href="cenovnik.html" class="nav-btn">Cenovnik</a>
+                <a href="kontakt.html" class="nav-btn active">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page active">
+        <div class="container">
+            <div class="content">
+                <h1>Kontaktirajte nas</h1>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Ime i prezime:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Telefon:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Poruka:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Pošalji poruku</button>
+                </form>
+
+                <div class="contact-info">
+                    <h2>Informacije</h2>
+                    <div>
+                        <strong>📍 Adresa:</strong> Kneza Miloša 15, Beograd
+                    </div>
+                    <div>
+                        <strong>📞 Telefon:</strong> +381 11 123 4567
+                    </div>
+                    <div>
+                        <strong>📧 Email:</strong> info@gamezone.rs
+                    </div>
+                    <div>
+                        <strong>🕐 Radno vreme:</strong> 24/7 (Non-stop)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Bojana Radivojević</p>
+            <meta name="author" content="Bojana Radivojević">
+        </div>
+    </footer>
+</body>
+</html>
