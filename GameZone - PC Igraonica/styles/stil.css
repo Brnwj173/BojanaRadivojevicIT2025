@@ -317,9 +317,6 @@ footer {
     color: #667eea;
 }
 
-/* Media Queries */
-
-/* Tablet (768px - 1024px) */
 @media (max-width: 1024px) and (min-width: 769px) {
     .container {
         padding: 15px;
@@ -372,7 +369,6 @@ footer {
     }
 }
 
-/* Mobile (max 768px) */
 @media (max-width: 768px) {
     .container {
         padding: 10px;
@@ -455,4 +451,5 @@ footer {
     nav {
         gap: 10px;
     }
+
 }
