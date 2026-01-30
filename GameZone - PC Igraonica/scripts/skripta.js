@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 const contactForm = document.getElementById('contactForm');
 
 contactForm.addEventListener('submit', (e) => {
@@ -12,4 +14,3 @@ contactForm.addEventListener('submit', (e) => {
     
     contactForm.reset();
 });
-
